@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: student-service
+
+  datasource:
+    url: jdbc:mysql://host.docker.internal:3306/student_db
+    username: root
+    password: Siva@9944
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
